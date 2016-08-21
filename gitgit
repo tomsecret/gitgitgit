@@ -1,0 +1,51 @@
+git init
+
+git status
+
+git add filename
+
+git diff filename 
+
+git commit -m "Complete first line of dialogue"
+
+git log
+
+git show HEAD
+
+git checkout HEAD filename #show head
+
+git reset HEAD filename #reset the file,removes file changes from the staging area
+
+git reset SHA # SHA is the first six digits?
+
+HEAD is the most recent. After you reset it, HEAD will change. 
+
+git branch
+
+git checkout fencing #switch to fencing branch
+
+git branch -d branch_name
+
+git merge fencing #now on master branch
+
+git branch #show all branches
+
+git clone science-quizzes my-quizzes    
+
+git remote -v
+
+git fetch #An easy way to see if changes have been made to the remote and bring the changes down to your local copy 
+but the changes are on origin/master branch
+so need to merge to the master branch
+
+fetch and merge changes from the remote
+Create a branch to work on a new project feature
+Develop the feature on your branch and commit your work
+Fetch and merge from the remote again (in case new commits were made while you were working)
+Push your branch up to the remote for review
+
+git push origin your_branch_name
+
+
+
+
