@@ -47,5 +47,7 @@ Push your branch up to the remote for review
 git push origin your_branch_name
 
 
+git add . 
+
 
 
